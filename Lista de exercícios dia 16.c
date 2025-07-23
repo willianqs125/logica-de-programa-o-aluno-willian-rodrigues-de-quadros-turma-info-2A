@@ -61,3 +61,12 @@ int main()
         printf(" numero impar.");
     }
 }
+
+#include <stdio.h>
+
+int main()
+{
+        printf("Total = 100%%\n Iva  = 17%%\n IRS  = 15%%\n -----------\n LIQU  = 68%%");
+
+    return 0;
+}
