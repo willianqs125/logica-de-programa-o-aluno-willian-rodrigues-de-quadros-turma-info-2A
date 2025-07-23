@@ -13,3 +13,17 @@ int main(){
     printf("%d/%d/%d", dia, mes, ano);
 
 }
+
+#include <stdio.h>
+
+int main(){
+    int dia, mes, ano;
+
+    printf("Digite qualquer data em aaa-mm-dd: ");
+    scanf("%d-%d-%d", &ano, &mes, &dia);
+
+    printf("%d/%d/%d", dia, mes, ano);
+
+    return 0;
+}
+
