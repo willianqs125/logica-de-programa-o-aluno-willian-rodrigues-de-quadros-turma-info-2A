@@ -43,3 +43,21 @@ int main()
     printf("Resto: %d %% %d = %d\n", primeiron, segundon, resto);
 
 }
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int Numero;
+
+    printf("Informe um numero: ");
+    scanf("%d", &Numero);
+
+    if(a%2==0){
+        printf(" numero par.");
+    }else{
+        printf(" numero impar.");
+    }
+}
